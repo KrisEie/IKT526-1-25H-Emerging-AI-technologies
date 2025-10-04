@@ -1,0 +1,6 @@
+assignments/assignment1/data/
+assignments/assignment1/weights/
+assignments/assignment1/outputs/
+*.safetensors
+*.ckpt
+*.pt
