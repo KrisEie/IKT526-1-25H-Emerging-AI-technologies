@@ -4,3 +4,4 @@ assignments/assignment1/outputs/
 *.safetensors
 *.ckpt
 *.pt
+*.sh
