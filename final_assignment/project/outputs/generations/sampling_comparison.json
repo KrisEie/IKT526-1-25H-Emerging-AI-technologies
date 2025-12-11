@@ -1,0 +1,182 @@
+[
+    {
+        "input_instruction": "Write a haiku about artificial intelligence.",
+        "model_output": "Artificial intelligence\nA machine that thinks\nIt's a machine that thinks\nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks. \nIt's a machine that thinks",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Write a haiku about artificial intelligence.",
+        "model_output": "One small step for man,\nOne giant leap for AI.  \nSolving complex problems\nWith precision and grace. \nA step closer to achieving. \nThe future of intelligent. \nA world where AI.  \nLives on. \nAn exciting journey. \nInto the world of. \nArtificial intelligence. \nA step closer to. \nAchieving. \nIn our ever-evolving. \nWorld. \nAn inspiring journey. \nInto the world of. \nArtificial intelligence. \nA step closer to. \nAchieving. \nIn our ever-evolving. \nWorld. \nA beautiful journey. \nInto the world of. \nArtificial intelligence. \nA step closer to. \nAchieving. \nIn our ever-ev",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Write a haiku about artificial intelligence.",
+        "model_output": "\"Rise and rise, AI, in this new world\nUnwittingly, a step closer to its soul\"\n- Julia J. Johnson. Artificial Intelligence. 2018. (Poem 2, 6 stanzas of 5 syllables each). Transcription and formatting by Julia J. Johnson. (Haiku by Julia J. Johnson). Personal publication. All rights reserved. Julia J. Johnson, 2018. All rights reserved. AI. [Title] (Poem) (Year of publication). (Accessed online via https://bit.ly/2YgTzjw on March 10, 2020) [URL]. Accessed March 10, 2020. DOI: [",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Explain quantum computing to a 5-year-old.",
+        "model_output": "Quantum computing is a new type of computer that uses quantum mechanics to perform calculations. It's different from traditional computers because it uses quantum bits, or qubits, instead of traditional bits. A qubit can be in one of two states at the same time, like a 0 and a 1, or a 0 and a 1, or a 1 and a 0. This means that a qubit can be in multiple states at the same time, which is different from traditional computers, which can only be in one state at a time.\n\nQuantum computing is still in its early stages, but it has the potential to revolutionize many areas of science and technology. For example, it could be used to solve problems that",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Explain quantum computing to a 5-year-old.",
+        "model_output": "Quantum computing is a type of computer that uses quantum bits, or qubits, to perform calculations and solve problems. Qubits are like tiny computer chips that can hold more information than traditional bits. Instead of being in one of two states, such as 0 or 1, a qubit can be in a superposition of those two states, meaning that it can be in both states at once. This means that quantum computers can perform calculations much faster and more efficiently than traditional computers. They can also solve problems that would be impossible or very difficult for a traditional computer to solve. \n\nQuantum computers use principles from quantum physics to perform calculations. For example, instead of using a traditional computer's binary system, where 0 and 1",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Explain quantum computing to a 5-year-old.",
+        "model_output": "Quantum computing is a new way of doing calculations that is based on the principles of quantum mechanics. \n\nIt is like using the power of atoms instead of a computer chip. Atoms are made up of smaller particles called electrons, and they can behave differently in different environments. In quantum computing, the atoms behave differently based on the quantum state they are in. A quantum state can be described as a wave or a pattern that tells us where each electron is located. \n\nWhen a quantum computer is turned on, the electrons act like particles that behave in unexpected ways. They can act as a whole or separate and interact with each other. The computer is then able to perform calculations much faster than any other kind of computer.\n\nIn a nutshell, quantum computing",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Write a Python function to check if a number is prime.",
+        "model_output": "Here is a Python function that checks if a number is prime:\n\n```python\ndef is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n```\n\nThis function takes a single argument, `n`, which represents the number to be checked. It first checks if `n` is less than or equal to 1, and if it is, it returns `False`. Otherwise, it iterates over the numbers from 2 to the square root of `n` plus 1, and checks if any of these numbers divides evenly into `n",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Write a Python function to check if a number is prime.",
+        "model_output": "Here's a Python function that can be used to check if a given number is prime:\n\n```python\ndef is_prime(num):\n    if num <= 1:\n        return False\n    for i in range(2, int(num**0.5) + 1):\n        if num % i == 0:\n            return False\n    return True\n```\n\nThis function takes a single argument, `num`, which represents the number to be checked for primality. The function first checks if `num` is less than or equal to 1. If it is not, the function returns False. Otherwise, the function proceeds to check if `num` is divisible by any number from 2 to the square root of `num`",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Write a Python function to check if a number is prime.",
+        "model_output": "Here is a Python function that can check if a given number is prime or not:\n\n```python\ndef is_prime(number):\n    if number < 2:\n        return False\n\n    for i in range(2, int(number**0.5) + 1):\n        if number % i == 0:\n            return False\n    return True\n```\n\nThe function takes one argument `number` which represents a number that you want to check if it is prime or not. It first checks if the given number is less than or equal to 2, which means that it is not a prime number. Next, it checks if the number is prime by iterating over all the numbers between 2 and the square root of the number.",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "What are the three main laws of robotics according to Asimov?",
+        "model_output": "The three main laws of robotics according to Asimov are:\n\n1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.\n\n2. A robot must obey the orders given to it by human beings, except where such orders would conflict with the first law.\n\n3. A robot must protect its own existence as long as such protection does not conflict with the first or second law. If it does conflict, the robot must choose between the two laws. If it chooses the first law, it must not injure a human being or allow one to come to harm. If it chooses the second law, it must protect its own existence as long as such protection does not conflict with the first",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "What are the three main laws of robotics according to Asimov?",
+        "model_output": "According to the classic science fiction novel \"I, Robot\" by Isaac Asimov, the three main laws of robotics are:\n\n1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.\n2. A robot must obey orders given to it by human beings, except where such orders would conflict with the First Law.\n3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.\n\nThese laws are designed to ensure that robots are not used in a manner that would result in harm or destruction to humans, and that they are not used to harm or destroy themselves. They also ensure that robots are programmed to follow human instructions and not",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "What are the three main laws of robotics according to Asimov?",
+        "model_output": "The three main laws of robotics according to Asimov were:\n\n1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.\n\n2. A robot must obey orders, no matter whose they are.\n\n3. A robot must protect its own existence as long as such protection does not conflict with the first or second laws. It may, however, destroy other robots if ordered to do so. It must not take other actions than those ordered.\n\nThese laws have helped robots develop over the years, allowing them to perform tasks that would have been impossible without them, and also helping to regulate the use of robots in the world. They have also been used to guide the development of autonomous vehicles and",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Summarize the benefits of renewable energy in one sentence.",
+        "model_output": "Renewable energy is a sustainable and environmentally friendly source of energy that can help reduce our dependence on fossil fuels and combat climate change. It provides a clean and reliable source of energy that can be used to power homes, businesses, and industries. Additionally, renewable energy sources such as solar, wind, and hydroelectric power can also generate jobs and economic growth. By adopting renewable energy, we can help to protect the environment and improve our quality of life. It is a win-win situation for both the environment and the economy. Renewable energy is the future of energy. It is the way to go. Let's make it happen! #RenewableEnergy #ClimateChange #Environment #Economy #Future #Energy #Sustainability #CleanEnergy #",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Summarize the benefits of renewable energy in one sentence.",
+        "model_output": "Renewable energy provides a sustainable and environmentally friendly alternative to traditional energy sources, offering numerous benefits such as reducing greenhouse gas emissions, creating job opportunities, and promoting energy independence. It also reduces dependence on fossil fuels, supports economic growth, and helps to maintain a stable supply of energy. In summary, renewable energy is a key component in achieving a cleaner, greener, and more sustainable future. It is a critical step towards achieving a net-zero carbon footprint. It also has a significant impact on energy security and energy independence. Renewable energy is an essential part of the energy transition. It is the future of energy. It is a game-changer for the planet. It is the energy we need. It is the energy we want. It is the",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Summarize the benefits of renewable energy in one sentence.",
+        "model_output": "Renewable energy sources such as solar, wind, and hydro can help to reduce the dependence on non-renewable energy sources, providing a cleaner and more sustainable energy source for the future. These sources of energy are more affordable, reliable, and sustainable. Additionally, they reduce greenhouse gas emissions and promote economic growth. Ultimately, renewable energy is a vital solution to a cleaner and healthier future. [Source: https://www.renewableenergystandard.com/infographic/benefits-renewable-energy/ ](https://www.renewableenergystandard.com/infographic/benefits-renewable-energy/)... This article was updated on March 29, 2022. See the article for the most",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Translate 'Hello, how are you?' into French, Spanish, and German.",
+        "model_output": "In French, the translation would be \"Bonjour, comment allez-vous?\" in English. In Spanish, the translation would be \"Hola, \u00bfc\u00f3mo est\u00e1s?\" and in German, the translation would be \"Hallo, wie geht es dir?\".\n\nIn Spanish, the translation would be \"Hola, \u00bfc\u00f3mo est\u00e1s?\" and in German, the translation would be \"Hallo, wie geht es dir?\".\n\nIn French, the translation would be \"Bonjour, comment allez-vous?\" in English. In Spanish, the translation would be \"Hola, \u00bfc\u00f3mo est\u00e1s?\" and in German, the translation would be \"Hallo, wie geht es dir?\".\n\nIn French, the translation would be \"Bonjour, comment allez-vous?\"",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Translate 'Hello, how are you?' into French, Spanish, and German.",
+        "model_output": "In French, the translation is \"Salut, comment allez-vous?\".\n\nIn Spanish, the translation is \"Hola, \u00bfC\u00f3mo est\u00e1s?\".\n\nIn German, the translation is \"Hallo, wie geht es dir?\".\n\nNote: The translations may vary slightly depending on the speaker's native language and cultural context. So, it's always a good idea to double-check the translations before using them in a specific context. If you need help translating the sentence, you can find more resources on the internet. You can also check out the Google Translate website to get a more accurate translation of the sentence. Happy translating! \ud83c\udf0e. [Source: Translation tools] (https://www.google.com/translate?hl=en&sl=fr&",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Translate 'Hello, how are you?' into French, Spanish, and German.",
+        "model_output": "'Hello, how are you?' can be translated into French as \"Bonjour, comment allez-vous?\", \"Hola, como est\u00e1s?\", and \"Hola, como vas?\". \n\nIn Spanish, the translation would be \"Hola, \u00bfc\u00f3mo est\u00e1s?\". \n\nIn German, the translation would be \"Guten Morgen, wie geht es dir?\" or \"Guten Morgen, wie stehen Sie?\". \n\nThese translations reflect the informal nature of these three languages in their greetings. These greetings are polite, but casual, and typically used to get to know someone. They are often used in informal settings or on the street, where more direct greetings are less common. The greetings can be used interchangeably depending on the context.",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Brainstorm 3 unique names for a coffee shop.",
+        "model_output": "1. The Bean Shop\n2. The Coffee Bean\n3. The Java Joint. (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint) (Or, The Java Joint",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Brainstorm 3 unique names for a coffee shop.",
+        "model_output": "1. Espresso Bar \n2. Intelligentsia \n3. Coffee Mecca. \n\nThese names are all unique and would make for a great coffee shop. The choice of names would depend on the personality and branding of the shop. The names also reflect the types of coffee that are served at the shop, such as Espresso Bar serving high quality espresso drinks, Intelligentsia serving specialty coffee and the Coffee Mecca offering a wide range of coffee beverages. Ultimately, the choice of name would depend on the identity of the shop and what it hopes to convey to its customers. The names can be combined with other elements such as a logo and a sign to create a memorable and unique coffee shop. For instance, Intelligentsia could be",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Brainstorm 3 unique names for a coffee shop.",
+        "model_output": "1. Cafe Beans and Brews\n2. Roastery Roasters\n3. Jingle Jingles. (coffee themed jingle) - a fun, catchy name that combines the word \"Jingle\" (for the jingle) with the word \"Coffee\" (the coffee shop name). The jingle could be something as simple as \"A refreshing cup of coffee, hot and jingly\" or something more elaborate, like \"A blend of bright flavors, roasty and jingly.\" The coffee shop would also have a custom logo that reflects the jingle, such as a coffee bean with a smiley face, or a coffee cup with a jingle written in the cup's handle. Additionally, the staff would all wear t",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Act as a travel guide and recommend 3 places to visit in Tokyo.",
+        "model_output": "1. Tokyo Skytree: This iconic tower is a must-visit for anyone visiting Tokyo. It offers breathtaking views of the city and is a great place to take photos. The observation deck at the top offers panoramic views of the city, and there are plenty of restaurants and shops to explore.\n\n2. Senso-ji Temple: This temple is one of the oldest and most famous in Tokyo, and it is a great place to experience traditional Japanese culture. The temple is located on the waterfront and is surrounded by beautiful gardens and shrines. There are also plenty of shops and restaurants to explore.\n\n3. Meiji Shrine: This shrine is dedicated to the Emperor Meiji and his wife, Empress Shoken. It is a beautiful place to",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Act as a travel guide and recommend 3 places to visit in Tokyo.",
+        "model_output": "1. Tokyo Tower: Located in the Minato ward of Tokyo, this iconic landmark is a must-visit for anyone visiting the city. It offers breathtaking views of the city, with the Tokyo Skytree in the distance. The tower is also home to several restaurants and bars, as well as a museum.\n\n2. Asakusa Kannon Temple: This Buddhist temple is a popular tourist attraction in Tokyo, and is known for its many traditional Japanese buildings and attractions. It is located in Asakusa, a popular tourist area, and is surrounded by many restaurants, shops, and attractions.\n\n3. Tokyo Disneyland: This theme park is located in the Chiba prefecture, and is a great place to visit with kids. It offers a variety",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Act as a travel guide and recommend 3 places to visit in Tokyo.",
+        "model_output": "Tokyo is a bustling city with so much to see and do that it's impossible to fit everything in. Here are three places I would highly recommend visiting while in Tokyo:\n\n1. Meiji Jingu Shrine: A serene and picturesque Japanese shrine located in the heart of Tokyo. It is a beautiful place for a peaceful walk and the cherry blossom season is the perfect time to visit.\n2. Asakusa Kannon Temple: This temple is famous for its large statue of the Buddhist goddess Kannon, which is believed to bring good fortune. There are many shops and stalls selling traditional Japanese snacks and souvenirs in the surrounding area.\n3. Ueno Park: A large park with plenty of green space, and a beautiful pond that is the",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Solve this riddle: I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+        "model_output": "The answer to the riddle is \"Air.\" Air is a vital element that is essential for life. It is the substance that fills the air we breathe, and it is responsible for the movement of the wind. Without air, we would not be able to breathe, and we would not be able to hear. Air is also responsible for the movement of the tides, the weather, and the circulation of the blood. It is a vital element that is essential for life. So, the answer to the riddle is \"Air.\" It is the substance that fills the air we breathe, and it is responsible for the movement of the wind. Without air, we would not be able to breathe, and we would not be able to hear.",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Solve this riddle: I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+        "model_output": "The answer to your riddle is a bird. Birds have no body, but they can come alive with wind. They are known as \"Birds of the Air.\" They have no ears, but they can hear without mouth. They are known as \"Birds of the Air.\" They speak without a mouth, but they can hear without ears. They are known as \"Birds of the Air.\" They have no body, but they come alive with wind. They are known as \"Birds of the Air.\" So, the answer to your riddle is a bird. They are known as \"Birds of the Air.\" They have no body, but they come alive with wind. They are known as \"Birds of the Air.\"",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Solve this riddle: I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+        "model_output": "The answer is \"Wind\". Wind is a mysterious, intangible substance that fills the air and surrounds everything. It is unseen, it has no physical form or body, yet it can move through the air and create motion. The wind can also speak, as its sound and vibration can be heard without any physical body. In essence, wind is both a physical and intangible presence that surrounds and lives within us. In riddles, we can often use metaphors to convey a hidden meaning or to give clues to the solution. In this case, \"Wind\" is a metaphor for the spirit, the essence or the breath of life that permeates and animates us, making us alive. So, the answer to the riddle \"I speak",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Why is the sky blue?",
+        "model_output": "The sky is blue because it is a result of the interaction of light and the atmosphere. The atmosphere is made up of gases such as nitrogen, oxygen, and water vapor, which absorb and scatter certain wavelengths of light. When light passes through these gases, it is scattered in different directions, creating a rainbow-like pattern. The blue color is caused by the scattering of blue light, which is the most abundant color in the visible spectrum. The sky is blue because it is a result of the interaction of light and the atmosphere. The atmosphere is made up of gases such as nitrogen, oxygen, and water vapor, which absorb and scatter certain wavelengths of light. When light passes through these gases, it is scattered in different directions, creating a rainbow-like pattern",
+        "strategy_used": "Greedy Decoding",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Why is the sky blue?",
+        "model_output": "The sky is blue because the atmosphere is made up of gases that absorb certain wavelengths of light and reflect others. These gases, primarily oxygen and nitrogen, are present in greater amounts in the upper atmosphere, which is why the sky appears bluer there. The lower atmosphere contains less of these gases, and so the sky appears more yellow or orange depending on the wavelength of light that is being absorbed. Additionally, the atmosphere is constantly changing, and this can also affect the color of the sky. For example, when clouds form in the atmosphere, they can block out some of the sunlight, which can change the color of the sky. Overall, the color of the sky is influenced by a variety of factors, including the presence of specific gases and the atmosphere",
+        "strategy_used": "Temperature Sampling",
+        "scores": {}
+    },
+    {
+        "input_instruction": "Why is the sky blue?",
+        "model_output": "The sky is often said to be blue because of the wavelength of visible light, which is reflected from water molecules within the atmosphere. The blue color we see is a result of the absorption of certain wavelengths of visible light by the water droplets that make up the atmosphere. These molecules absorb light, giving off shorter wavelengths of visible light and re-emitting them as longer wavelengths, which appears as the blue we see in the sky. Additionally, the sky is blue because of the reflective properties of clouds, which absorb light at specific wavelengths, while scattering it at others, allowing light to reflect off and appear as a deep blue. Over time, these processes change, and the sky may appear various shades of blue as it does during different seasons or when conditions",
+        "strategy_used": "Nucleus Sampling",
+        "scores": {}
+    }
+]
