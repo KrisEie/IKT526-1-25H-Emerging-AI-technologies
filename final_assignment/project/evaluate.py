@@ -107,36 +107,58 @@ def main():
         inputs = tokenizer(prompt, return_tensors="pt").to(base_model.device)
         
         # Generate
+        # Generate Fine-tuned
         with torch.no_grad():
-            outputs = ft_model.generate(
+            ft_outputs = ft_model.generate(
                 **inputs, 
                 max_new_tokens=100, 
-                do_sample=False # Greedy for eval
+                do_sample=False
             )
+            
+            # Generate Base (disable adapter)
+            with ft_model.disable_adapter():
+                base_outputs = ft_model.generate(
+                    **inputs,
+                    max_new_tokens=100,
+                    do_sample=False
+                )
         
-        prediction = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        # Extract only the generated part (remove prompt)
-        generated_text = prediction[len(prompt):].strip()
+        ft_prediction = tokenizer.decode(ft_outputs[0], skip_special_tokens=True)
+        base_prediction = tokenizer.decode(base_outputs[0], skip_special_tokens=True)
         
-        # Metrics
-        ppl = calculate_perplexity(ft_model, tokenizer, prediction, prompt)
+        # Extract generated parts
+        ft_text = ft_prediction[len(prompt):].strip()
+        base_text = base_prediction[len(prompt):].strip()
         
-        # F1
-        prec, rec, f1 = calculate_f1(generated_text, ground_truth)
+        # Metrics FT
+        ft_ppl = calculate_perplexity(ft_model, tokenizer, ft_prediction, prompt)
+        ft_prec, ft_rec, ft_f1 = calculate_f1(ft_text, ground_truth)
         
-        total_ppl += ppl
-        total_f1 += f1
+        # Metrics Base
+        with ft_model.disable_adapter():
+            base_ppl = calculate_perplexity(ft_model, tokenizer, base_prediction, prompt)
+        base_prec, base_rec, base_f1 = calculate_f1(base_text, ground_truth)
+        
+        total_ppl += ft_ppl
+        total_f1 += ft_f1
         
         results.append({
             "instruction": sample["instruction"],
             "input": sample.get("input", ""),
             "ground_truth": ground_truth,
-            "generated_output": generated_text,
-            "perplexity": ppl,
-            "f1_score": f1
+            "fine_tuned_output": ft_text,
+            "base_model_output": base_text,
+            "fine_tuned_metrics": {
+                "perplexity": ft_ppl,
+                "f1_score": ft_f1
+            },
+            "base_model_metrics": {
+                "perplexity": base_ppl,
+                "f1_score": base_f1
+            }
         })
         
-        print(f"Sample {i+1}: PPL={ppl:.2f}, F1={f1:.2f}")
+        print(f"Sample {i+1}: FT_F1={ft_f1:.2f}, Base_F1={base_f1:.2f}")
 
     avg_ppl = total_ppl / len(eval_samples)
     avg_f1 = total_f1 / len(eval_samples)

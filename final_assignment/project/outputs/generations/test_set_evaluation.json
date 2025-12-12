@@ -3,90 +3,160 @@
         "instruction": "Find the value of x for the equation 2x \u2013 5 = 11",
         "input": "",
         "ground_truth": "To solve the equation 2x \u2013 5 = 11 for x, we need to isolate x on one side of the equation. Here are the steps:\n\n1. Add 5 to both sides of the equation: \n\n    2x - 5 + 5 = 11 + 5\n        2x = 16\n\n2. Divide both sides by 2:\n\n    2x/2 = 16/2\n        x = 8\n\nSo the value of x that satisfies the equation 2x \u2013 5 = 11 is x = 8.",
-        "generated_output": "To find the value of x for the equation 2x \u2013 5 = 11, we need to solve the equation for x. \n\nWe can do this by subtracting 5 from both sides of the equation to get:\n\n2x \u2013 5 \u2013 5 = 11 \u2013 5\n\n2x = 6\n\nDividing both sides by 2, we get:\n\nx = 3\n\nTherefore, the value of x for the equation 2x \u2013 5 =",
-        "perplexity": 1.2215909957885742,
-        "f1_score": 0.6081081081081082,
+        "fine_tuned_output": "To find the value of x for the equation 2x \u2013 5 = 11, we need to solve the equation for x. \n\nWe can do this by subtracting 5 from both sides of the equation to get:\n\n2x \u2013 5 \u2013 5 = 11 \u2013 5\n\n2x = 6\n\nDividing both sides by 2, we get:\n\nx = 3\n\nTherefore, the value of x for the equation 2x \u2013 5 =",
+        "base_model_output": "x = 6\n\nSolution:\nGiven equation is 2x \u2013 5 = 11\n2x = 16\nx = 8\nx = 6\n\nHence, the value of x is 6.\n\nFAQs on Algebraic Expressions\n\n1. What is an algebraic expression?\nAn algebraic expression is a mathematical expression that contains variables and/or constants. It is a mathematical statement that can be evaluated using the operations of addition, subtraction, multiplication, and division",
+        "fine_tuned_metrics": {
+            "perplexity": 1.2215909957885742,
+            "f1_score": 0.6081081081081082
+        },
+        "base_model_metrics": {
+            "perplexity": 1.8673039674758911,
+            "f1_score": 0.3586206896551724
+        },
         "qualitative_score": 2
     },
     {
         "instruction": "List the four characters in the 1971 movie Willy Wonka and the Chocolate Factory",
         "input": "",
         "ground_truth": "1. Willy Wonka, portrayed by Gene Wilder.\n2. Charlie Bucket, portrayed by Peter Ostrum.\n3. Grandpa Joe, portrayed by Jack Albertson.\n4. Augustus Gloop, portrayed by Michael Bollner.",
-        "generated_output": "The four characters in the 1971 movie Willy Wonka and the Chocolate Factory are:\n\n1. Willy Wonka\n2. Charlie Bucket\n3. Grandpa Joe\n4. Mrs. Bucket.",
-        "perplexity": 1.2656242847442627,
-        "f1_score": 0.2592592592592593,
+        "fine_tuned_output": "The four characters in the 1971 movie Willy Wonka and the Chocolate Factory are:\n\n1. Willy Wonka\n2. Charlie Bucket\n3. Grandpa Joe\n4. Mrs. Bucket.",
+        "base_model_output": "Willy Wonka\nCharlie\nOompa Loompa\nVeruca Salt",
+        "fine_tuned_metrics": {
+            "perplexity": 1.2656242847442627,
+            "f1_score": 0.2592592592592593
+        },
+        "base_model_metrics": {
+            "perplexity": 1.8283735513687134,
+            "f1_score": 0.1142857142857143
+        },
         "qualitative_score": 5
     },
     {
         "instruction": "Come up with a headline for an article about social media's impact on society.",
         "input": "",
         "ground_truth": "Navigating the Double-Edged Sword: The Unprecedented Impact of Social Media on Society.",
-        "generated_output": "\"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate, and Connect\" or \"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate, and Connect\" or \"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate, and Connect\" or \"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate,",
-        "perplexity": 1.2843528985977173,
-        "f1_score": 0.09411764705882353,
+        "fine_tuned_output": "\"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate, and Connect\" or \"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate, and Connect\" or \"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate, and Connect\" or \"Social Media: The Impact on Society - How It Has Changed the Way We Interact, Communicate,",
+        "base_model_output": "A headline for an article about social media's impact on society.\n\nSolution:\nSocial media has had a significant impact on society, with its ability to connect people from all over the world and share information in real-time. However, there are also some negative aspects of social media, such as the spread of misinformation and the potential for cyberbullying. As a result, it is important to strike a balance between the positive and negative aspects of social media and to use it responsibly.\n\nIn conclusion, social media",
+        "fine_tuned_metrics": {
+            "perplexity": 1.2843528985977173,
+            "f1_score": 0.09411764705882353
+        },
+        "base_model_metrics": {
+            "perplexity": 1.6681017875671387,
+            "f1_score": 0.16326530612244897
+        },
         "qualitative_score": 2
     },
     {
         "instruction": "Describe the impact of the increasing popularity of social media in the past decade.",
         "input": "",
         "ground_truth": "The rise in popularity of social media in the past decade has had a significant impact on society as a whole. The way we communicate, share information, and interact with others has been dramatically altered.\n\nOne of the biggest changes brought on by social media is the way we connect with others. Social media platforms such as Facebook, Twitter, and Instagram have made it easier for people to keep in touch with family and friends, regardless of their location. This has brought people closer together and has made it much easier to maintain long-distance relationships.\n\nThe rise of social media has also had a significant impact on the way news and information is distributed. With the increasing number of people using social media as a primary source of news, traditional media outlets have had to adapt to stay relevant. Many news outlets now have a social media presence, using platforms such as Twitter to share breaking news and updates.\n\nIn addition, social media has also changed the way businesses and organizations interact with their customers or supporters. Companies can now use social media to reach out to their target audience, promote their products or services, and engage with their customers in a more personal and interactive way.\n\nHowever, the increasing popularity of social media has also brought its fair share of challenges. It has been blamed for increased levels of FOMO (fear of missing out), anxiety, and depression among young people, who may compare their lives to heavily curated and filtered versions of reality presented by others on social media. Furthermore, the spread of misinformation and fake news on social media has become a major concern, with the potential to influence public opinion and even election results.\n\nIn conclusion, social media has had a profound impact on the way we communicate, share information, and interact with others. While it has brought many benefits, there are also challenges that need to be addressed to ensure it continues to be a positive force in our lives.",
-        "generated_output": "The increasing popularity of social media has had a significant impact on society and culture in the past decade. Here are some key points:\n\n1. Increased access to information: Social media has made information more accessible and available to a wider audience. Users can now access news, entertainment, and information from around the world in real-time, and can share their opinions and experiences with others.\n\n2. Increased connectivity: Social media has made it easier for people to connect with others, regardless of their location. Users can",
-        "perplexity": 1.8060190677642822,
-        "f1_score": 0.26666666666666666,
+        "fine_tuned_output": "The increasing popularity of social media has had a significant impact on society and culture in the past decade. Here are some key points:\n\n1. Increased access to information: Social media has made information more accessible and available to a wider audience. Users can now access news, entertainment, and information from around the world in real-time, and can share their opinions and experiences with others.\n\n2. Increased connectivity: Social media has made it easier for people to connect with others, regardless of their location. Users can",
+        "base_model_output": "A list of the top 10 most popular social media platforms in the United States in 2019, ranked by the number of monthly active users.\n\nSolution:\nThe popularity of social media platforms has increased significantly in the past decade. The top 10 most popular social media platforms in the United States in 2019, ranked by the number of monthly active users, are as follows:\n\n1. Facebook\n2. Instagram\n3. Twitter\n4. YouTube\n5. TikTok\n6.",
+        "fine_tuned_metrics": {
+            "perplexity": 1.8060190677642822,
+            "f1_score": 0.26666666666666666
+        },
+        "base_model_metrics": {
+            "perplexity": 1.592386245727539,
+            "f1_score": 0.18092909535452323
+        },
         "qualitative_score": 4
     },
     {
         "instruction": "Compose a poem about a person who is facing a difficult situation",
         "input": "",
         "ground_truth": "Amidst the turmoil, there she stands,\nLost and uncertain, wringing her hands,\nThe path ahead, winding and tough,\nThe situation she faces, undoubtedly rough.\n\nThe clouds above, dark and looming,\nThe struggles within, relentlessly consuming,\nEyes lifted upward, searching for light,\nClasping to hope with all her might.\n\nThe weight of the world upon her shoulder,\nThe winds of change, blowing colder,\nTears fall silently, fears abound,\nA solution, it seems, nowhere to be found.\n\nYet still she stands, head held high,\nA strength within, she can't deny,\nThe fire inside, burning bright,\nGuiding her through the darkest night.\n\nFor though the journey may be long,\nShe knows in her heart, she is strong,\nWith each step forward, her spirit soars,\nFacing the difficult, she endures.\n\nAnd through the struggles, growth is found,\nAs she rises up, from shaky ground,\nThe person she is, shining through,\nA warrior, brave and true.",
-        "generated_output": "The sun was shining brightly,\nThe breeze was blowing gently,\nThe person was facing a difficult situation,\nA situation that seemed impossible.\n\nThey were struggling to find their way,\nTo find the strength to keep going,\nTo find the courage to keep fighting,\nTo find the will to keep going.\n\nBut as the days passed by,\nThe person's determination grew,\nThe strength they found within,\nThe courage they gained,\nThe will they found within.\n\nAnd as the days passed by,\nThe person's strength grew",
-        "perplexity": 2.4909064769744873,
-        "f1_score": 0.22127659574468087,
+        "fine_tuned_output": "The sun was shining brightly,\nThe breeze was blowing gently,\nThe person was facing a difficult situation,\nA situation that seemed impossible.\n\nThey were struggling to find their way,\nTo find the strength to keep going,\nTo find the courage to keep fighting,\nTo find the will to keep going.\n\nBut as the days passed by,\nThe person's determination grew,\nThe strength they found within,\nThe courage they gained,\nThe will they found within.\n\nAnd as the days passed by,\nThe person's strength grew",
+        "base_model_output": "The poem should be 10 lines long and should have a title at the beginning. The title should be the name of the person who is facing the difficult situation. The poem should be written in the first person. The poem should be about 100 words long. The poem should have a conclusion. The conclusion should be about 10 words long. The poem should have a title at the beginning. The title should be the name of the person who is facing the difficult situation. The poem should be",
+        "fine_tuned_metrics": {
+            "perplexity": 2.4909064769744873,
+            "f1_score": 0.22127659574468087
+        },
+        "base_model_metrics": {
+            "perplexity": 1.9104408025741577,
+            "f1_score": 0.225
+        },
         "qualitative_score": 4
     },
     {
         "instruction": "Predict the scoring of a basketball game using the given data.",
         "input": "Game Info:\n\nTeam: Lakers vs. Cavaliers\n\nStats for Lakers:\n\nPoints - 112\n\nShots percentage - 45%\n\nRebounds - 46\n\nOffense rating - 113\n\nTurnovers - 17\n\nStats for Cavaliers:\n\nPoints - 101\n\nShots percentage - 42%\n\nRebounds - 33\n\nOffense rating - 105\n\nTurnovers - 10",
         "ground_truth": "(predicting the score of a basketball game is not as easy as only using past statistics because there are many variables involved that can affect game outcomes such as players' health, players' emotions, players' performance variability, and referee's variability)\n\nBased on the given statistics, it appears that the Lakers have an edge over the Cavaliers in terms of points, shots percentage, rebounds, offense rating, and turnovers. The Lakers scored 112 points with a shots percentage of 45%, while the Cavaliers scored 101 points with a shots percentage of 42%. The Lakers also had more rebounds (46) and a higher offense rating (113) compared to the Cavaliers (33 rebounds and 105 offense rating). However, the Lakers had more turnovers (17) than the Cavaliers (10), which is something they will need to work on in order to reduce their opponents' chances of scoring.\n\nIt is worth noting that these statistics are only a snapshot of one game and may not necessarily reflect the overall performance and abilities of the teams. Predicting the exact score of a basketball game is not possible, but it is possible to make an educated guess based on past statistics and current circumstances. Given the information provided, it is likely that the Lakers will have a higher chance of winning the game, but the final score could vary depending on many factors such as players performance variability in that specific game, strategies adopted by the coaches of the two teams among other factors.",
-        "generated_output": "The Lakers are expected to win the game with a score of 112-101. The Lakers have a higher points total (112) and a higher offense rating (113) than the Cavaliers (101 and 105, respectively). The Cavaliers have a lower points total (101) and a lower offense rating (105) than the Lakers. The Cavaliers have a higher rebounds total (33) than the Lakers (46), but the Lakers have a higher rebound percentage (45%). The Cavaliers have a higher",
-        "perplexity": 1.5609378814697266,
-        "f1_score": 0.2981366459627329,
+        "fine_tuned_output": "The Lakers are expected to win the game with a score of 112-101. The Lakers have a higher points total (112) and a higher offense rating (113) than the Cavaliers (101 and 105, respectively). The Cavaliers have a lower points total (101) and a lower offense rating (105) than the Lakers. The Cavaliers have a higher rebounds total (33) than the Lakers (46), but the Lakers have a higher rebound percentage (45%). The Cavaliers have a higher",
+        "base_model_output": "Lakers win by 11 points.\n\nExplanation:\nThe Lakers have a higher offense rating than the Cavaliers. The Lakers have a higher points total than the Cavaliers. The Lakers have a higher shots percentage than the Cavaliers. The Lakers have a higher rebounds total than the Cavaliers. The Lakers have a higher turnovers total than the Cavaliers. The Lakers have a higher offense rating than the Cavaliers. The Lakers have a higher points total than the Cavaliers. The Lakers have a higher shots percentage than the Cavaliers. The Lakers",
+        "fine_tuned_metrics": {
+            "perplexity": 1.5609378814697266,
+            "f1_score": 0.2981366459627329
+        },
+        "base_model_metrics": {
+            "perplexity": 1.5177444219589233,
+            "f1_score": 0.27627627627627627
+        },
         "qualitative_score": 4
     },
     {
         "instruction": "Design a logo that conveys the brand name \u2018Jetsetter\u2019.",
         "input": "",
         "ground_truth": "As an AI language model, I don't have the capability to create visual designs such as logos. However, here are a few ideas you could incorporate into creating a logo that conveys the brand name 'Jetsetter':\n\n1. A sleek silver airplane leaving a curved contrail that forms a letter \"J,\" for Jetsetter, against a deep blue skyline background.\n\n2. An emblem featuring a globe enclosed in a circle with intersecting radial lines, to symbolize worldwide travel. The brand name \"Jetsetter\" could be placed below it in a bold, modern font.\n\n3. A minimalist design featuring a stylized airplane with wings resembling a paper plane, soaring upwards. The brand name \u201cJetsetter\u201d could be printed in a clear, sans-serif font beside the graphic.\n\n4. A stylish design with a suitcase icon that has retro travel stickers attached to it, symbolizing a well-traveled person. The brand name 'Jetsetter' could be placed above or below it in a handwritten font.\n\n5. A graphical representation of a passport with stamps from different countries, animated in colors that convey a lively experience. The brand name \"Jetsetter\" could be placed atop it in a bold, formal font.",
-        "generated_output": "Here is a logo design that conveys the brand name 'Jetsetter':\n\n![Logo](https://i.imgur.com/9Y8YyJL.png)\n\nThe logo features a sleek, modern design with a bold, eye-catching font. The font is designed to be eye-catching and bold, with a clean, modern look. The font is also designed to be easy to read, making it easy for people to quickly identify the brand name.\n\nThe logo also features a combination of colors that are",
-        "perplexity": 2.7009880542755127,
-        "f1_score": 0.30115830115830117,
+        "fine_tuned_output": "Here is a logo design that conveys the brand name 'Jetsetter':\n\n![Logo](https://i.imgur.com/9Y8YyJL.png)\n\nThe logo features a sleek, modern design with a bold, eye-catching font. The font is designed to be eye-catching and bold, with a clean, modern look. The font is also designed to be easy to read, making it easy for people to quickly identify the brand name.\n\nThe logo also features a combination of colors that are",
+        "base_model_output": "A logo that conveys the brand name \u2018Jetsetter\u2019.",
+        "fine_tuned_metrics": {
+            "perplexity": 2.7009880542755127,
+            "f1_score": 0.30115830115830117
+        },
+        "base_model_metrics": {
+            "perplexity": 2.103121042251587,
+            "f1_score": 0.0707070707070707
+        },
         "qualitative_score": 2
     },
     {
         "instruction": "List three complementary colours.",
         "input": "",
         "ground_truth": "Some complementary color pairs are: \n1. Red and Green \n2. Blue and Orange \n3. Yellow and Purple.",
-        "generated_output": "1. Black and white\n2. Red and blue\n3. Orange and green. These three colours are known as the complementary colours. They are opposite each other on the color wheel and are used to create a vibrant and balanced color scheme. Black and white are used to create a sense of contrast and depth, while red and blue are used to create a sense of energy and excitement. Orange and green are used to create a sense of warmth and nature. These colors are often used in fashion,",
-        "perplexity": 1.7701220512390137,
-        "f1_score": 0.22857142857142856,
+        "fine_tuned_output": "1. Black and white\n2. Red and blue\n3. Orange and green. These three colours are known as the complementary colours. They are opposite each other on the color wheel and are used to create a vibrant and balanced color scheme. Black and white are used to create a sense of contrast and depth, while red and blue are used to create a sense of energy and excitement. Orange and green are used to create a sense of warmth and nature. These colors are often used in fashion,",
+        "base_model_output": "Red, Green, Blue\n\nExplanation:\nRed, Green, Blue are complementary colours.",
+        "fine_tuned_metrics": {
+            "perplexity": 1.7701220512390137,
+            "f1_score": 0.22857142857142856
+        },
+        "base_model_metrics": {
+            "perplexity": 2.1990854740142822,
+            "f1_score": 0.14814814814814817
+        },
         "qualitative_score": 2
     },
     {
         "instruction": "Generate a creative idea for how to reduce employee absenteeism.",
         "input": "",
         "ground_truth": "One creative idea to reduce employee absenteeism could be to implement a 'Work from Home' or 'Remote Work' program. This could help employees to attend to personal or family commitments, without worrying about the commute, which often leads to absenteeism. Additionally, offering virtual work options can improve employee work-life balance, subsequently increasing their motivation and productivity. A robust digital infrastructure with clear remote-work policies can help companies smoothly integrate this program into their culture, ensuring that employee absenteeism is reduced without impacting the work.",
-        "generated_output": "One creative idea for reducing employee absenteeism is to implement a flexible work schedule that allows employees to work from home or from a remote location. This can be achieved by offering remote work options, allowing employees to work from home or a remote location, and providing flexible hours and schedules. This can help reduce the stress and pressure of commuting, and allow employees to work at their own pace, without the need to be at the office every day. Additionally, offering flexible work schedules can also help reduce the number",
-        "perplexity": 2.2238547801971436,
-        "f1_score": 0.4,
+        "fine_tuned_output": "One creative idea for reducing employee absenteeism is to implement a flexible work schedule that allows employees to work from home or from a remote location. This can be achieved by offering remote work options, allowing employees to work from home or a remote location, and providing flexible hours and schedules. This can help reduce the stress and pressure of commuting, and allow employees to work at their own pace, without the need to be at the office every day. Additionally, offering flexible work schedules can also help reduce the number",
+        "base_model_output": "A list of creative ideas for reducing employee absenteeism.\n\nSolution:\n1. Create a list of creative ideas for reducing employee absenteeism.\n2. Use a for loop to iterate through the list of ideas.\n3. For each idea, use a conditional statement to determine if the idea is feasible.\n4. If the idea is feasible, add it to a new list of feasible ideas.\n5. Return the new list of feasible ideas.",
+        "fine_tuned_metrics": {
+            "perplexity": 2.2238547801971436,
+            "f1_score": 0.4
+        },
+        "base_model_metrics": {
+            "perplexity": 1.6465795040130615,
+            "f1_score": 0.16774193548387098
+        },
         "qualitative_score": 5
     },
     {
         "instruction": "Given a list of dates, provide the exact year for each.",
         "input": "May 31,\nApril 15,\nJune 8,",
         "ground_truth": "I'm sorry, but without the year being provided, it is not possible to determine the exact year for each of these dates. Could you please provide more context or information so that I may better assist you?",
-        "generated_output": "The exact year for each date is as follows:\n\nMay 31: 2020\nApril 15: 2020\nJune 8: 2020. \n\nNote: The dates are provided in the format of the day, month, and year. For example, May 31 is written as \"31 May 2020\". The exact year is the year that the date falls in, which is 2020 in this case. The year is not included in the date itself,",
-        "perplexity": 1.7583496570587158,
-        "f1_score": 0.2285714285714286,
+        "fine_tuned_output": "The exact year for each date is as follows:\n\nMay 31: 2020\nApril 15: 2020\nJune 8: 2020. \n\nNote: The dates are provided in the format of the day, month, and year. For example, May 31 is written as \"31 May 2020\". The exact year is the year that the date falls in, which is 2020 in this case. The year is not included in the date itself,",
+        "base_model_output": "2014\n\nExplanation:\nThe year is 2014 for May 31, 2014 for April 15, and 2014 for June 8.\n\nInput:\nMay 31,\nApril 15,\nJune 8,\nJuly 4,\n\nOutput:\n2014\n2014\n2014\n\nExplanation:\nThe year is 2014 for May 31, 2014 for April 15, 2014 for June 8, and 2014 for July 4.",
+        "fine_tuned_metrics": {
+            "perplexity": 1.7583496570587158,
+            "f1_score": 0.2285714285714286
+        },
+        "base_model_metrics": {
+            "perplexity": 1.3933840990066528,
+            "f1_score": 0.15730337078651685
+        },
         "qualitative_score": 3
     }
 ]
